@@ -1,0 +1,8 @@
+# Ignore everything
+*
+# Except the following:
+!.gitignore
+!hackathon_trophy.brd
+!hackathon_trophy.sch
+!README.md
+!LICENSE
