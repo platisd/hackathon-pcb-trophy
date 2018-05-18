@@ -14,7 +14,7 @@ As someone who often gets involved in organizing hackathons I had to come up wit
 ## How?
 The circuit as well as the code are relatively straight forward. A microcontroller (ATTiny85) is connected to a buzzer and a tactile button is connected to the microcontroller's reset pin, causing the firmware to reboot every time it is pressed. Everything is powered up by a CR2032 coin cell battery.
 
-![fritzing circuit](https://i.imgur.com/XmP1Fhc.png)
+![fritzing circuit](https://i.imgur.com/UihgeHe.png)
 
 On the software-side, the microcontroller plays an [RTTTL](https://en.wikipedia.org/wiki/Ring_Tone_Transfer_Language) tune (the [theme song from Rocky](https://www.youtube.com/watch?v=DhlPAj38rHc)) and then goes to deep sleep to preserve power. The RTTTL tune is played using code written by Brett Hagman from [Rogue Robotics](http://www.roguerobotics.com/).
 
